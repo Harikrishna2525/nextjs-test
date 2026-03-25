@@ -50,4 +50,3 @@ jobs:
             docker rm nextjs-app || true
 
             docker run -d -p 3000:3000 --name nextjs-app ghcr.io/harikrishna2525/nextjs-app:latest
-            
